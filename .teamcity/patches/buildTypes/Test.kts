@@ -25,5 +25,10 @@ changeBuildType(RelativeId("Test")) {
             }
         }
 
+        add(AbsoluteId("MavenSample_SheepProject_Build")) {
+            snapshot {
+            }
+        }
+
     }
 }
