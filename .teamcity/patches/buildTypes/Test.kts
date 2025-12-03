@@ -25,5 +25,10 @@ changeBuildType(RelativeId("Test")) {
             }
         }
 
+        add(RelativeId("Up")) {
+            snapshot {
+            }
+        }
+
     }
 }
