@@ -20,5 +20,15 @@ changeBuildType(RelativeId("Test")) {
             }
         }
 
+        add(AbsoluteId("Aqa1296723421_Build")) {
+            snapshot {
+            }
+        }
+
+        add(AbsoluteId("Aqa1296723421_Db480261621")) {
+            snapshot {
+            }
+        }
+
     }
 }
