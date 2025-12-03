@@ -15,17 +15,7 @@ changeBuildType(RelativeId("Test")) {
             }
         }
 
-        add(AbsoluteId("CopyMavenSample_SheepProject_CountingTests")) {
-            snapshot {
-            }
-        }
-
         add(RelativeId("Up")) {
-            snapshot {
-            }
-        }
-
-        add(AbsoluteId("MavenSample_SheepProject_Build")) {
             snapshot {
             }
         }
