@@ -24,11 +24,12 @@ To debug in IntelliJ Idea, open the 'Maven Projects' tool window (View
 'Debug' option is available in the context menu for the task.
 */
 
-version = "2024.12"
+version = "2025.07"
 
 project {
 
     buildType(Build)
+    buildType(Test)
 }
 
 object Build : BuildType({
@@ -48,6 +49,20 @@ object Build : BuildType({
 
     triggers {
         vcs {
+        }
+    }
+})
+
+object Test : BuildType({
+    name = "Test"
+
+    vcs {
+        root(DslContext.settingsRoot)
+    }
+
+    features {
+        feature {
+            type = "perfmon"
         }
     }
 })
