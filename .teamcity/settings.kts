@@ -65,4 +65,11 @@ object Test : BuildType({
             type = "perfmon"
         }
     }
+
+    dependencies {
+        snapshot(AbsoluteId("MavenSample_SheepProject_FailingCountingTests")) {
+        }
+        snapshot(Build) {
+        }
+    }
 })
